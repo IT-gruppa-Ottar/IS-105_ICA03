@@ -5,8 +5,8 @@ import (
 )
 
 func TestGreetingASCII(t *testing.T) {
-	//if !(isASCII("æ")){		//Expected: Fail
-	if !(isASCII("S")){		//Expected: Ok / Success
+	if !(isASCII("æ")){		//Expected: Fail
+	//if !(isASCII("S")){		//Expected: Ok / Success
 		t.Fail()
 	}
 }
