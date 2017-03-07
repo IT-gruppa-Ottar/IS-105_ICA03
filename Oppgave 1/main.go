@@ -1,12 +1,13 @@
 package main
 
-import (
-	"./ascii"
-)
+import "./ascii"
+
 
 func main() {
-	var temp string;
-	temp = "?";
-	ascii.IterateOverASCIIStringLiteral(temp)
+	//Oppagve 1a
+	input := ascii.ReturnAscii()
+	ascii.IterateOverASCIIStringLiteral(input)
+
+	//Oppgave 1b
 	ascii.GreetingASCII()
 }
