@@ -12,7 +12,7 @@ func TestGreetingASCII(t *testing.T) {
 	}
 }
 
-//Hentet fra https://play.golang.org/p/hnZzfnbXeF
+//Hentet fra https://play.golang.org/p/hnZzfnbXeF sist sett 26.04.17
 func isASCII(s string) bool {
 	for _, c := range s {
 		if c > 127 {
