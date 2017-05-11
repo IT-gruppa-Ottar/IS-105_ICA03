@@ -16,9 +16,9 @@ func ReturnAscii()string{
 
 //noinspection GoUnusedExportedFunction
 func IterateOverASCIIStringLiteral(sl string) {
-	// Kode for Oppgave 1
+	// Kode for Oppgave 1		
+	fmt.Println("Hexa/symbol/binært:")
 	for i := 0; i < len(sl); i ++ {
-		fmt.Println("Hexa/symbol/binært:")
 		fmt.Printf ("%X %c %b\n", sl[i], sl[i], sl[i])
 	}
 }
@@ -31,6 +31,8 @@ func GreetingASCII() string{
 	for i := 0; i < len(greeting); i++ {
 		fmt.Printf("%c", greeting[i])
 	}
+
+	fmt.Println("")
 	//String converter
 	str := string(greeting)
 	return str
