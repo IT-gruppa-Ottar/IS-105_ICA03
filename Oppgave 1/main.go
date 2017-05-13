@@ -1,7 +1,6 @@
 package main
 
-import "./ascii"
-
+import "./ascii/"
 
 func main() {
 	//Oppagve 1a

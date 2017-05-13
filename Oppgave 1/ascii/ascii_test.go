@@ -1,8 +1,7 @@
-package test
+package ascii
 
 import (
-	"testing"
-	"../ascii"
+	"testing"	
 )
 
 func TestGreetingASCII(t *testing.T) {
@@ -12,7 +11,7 @@ func TestGreetingASCII(t *testing.T) {
 	}
 }
 
-//Hentet fra https://play.golang.org/p/hnZzfnbXeF sist sett 26.04.17
+//Hentet fra https://play.golang.org/p/hnZzfnbXeF
 func isASCII(s string) bool {
 	for _, c := range s {
 		if c > 127 {
