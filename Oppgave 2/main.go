@@ -1,5 +1,6 @@
 package main
 import "./iso"
+
 func main() {
 
 	//Oppgave 2a

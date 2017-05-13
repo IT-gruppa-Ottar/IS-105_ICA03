@@ -32,7 +32,7 @@ func GreetingExtendedASCII() string{
 	for i := 0; i < len(greeting); i++ {
 		fmt.Printf("%c", greeting[i])
 	}
-
+    fmt.Println("")
 	//String converter
 	str := string(greeting)
 	return str
