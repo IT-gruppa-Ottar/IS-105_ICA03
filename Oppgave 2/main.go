@@ -1,7 +1,8 @@
 package main
-import "./iso"
-func main() {
 
+import "./iso"
+
+func main() {
 	//Oppgave 2a
 	sl := iso.AddExtendedAscii()
 	iso.IterateOverExtendedASCIIStringLiteral(sl)

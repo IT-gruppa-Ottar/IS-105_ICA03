@@ -1,12 +1,11 @@
-package test
+package iso
 
 import (
 	"testing"
-	"../iso"
 )
 
 func TestGreetingExtendedASCII(t *testing.T) {
-	testExtendedAscii := iso.GreetingExtendedASCII()
+	testExtendedAscii := GreetingExtendedASCII()
 	if !(isExtendedASCII(testExtendedAscii)){
 		t.Fail()
 	}
