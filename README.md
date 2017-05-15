@@ -16,3 +16,18 @@ Testing:
 2. Skriv kommandoen "go test".
 
 # Oppgave 3 
+b)
+1. Lokaliser filen "main.go" i mappen "Oppgave b".
+2. Skriv kommandoen "go run main.go". Dette vil vise innholdet i filene lang01.wl, lang02.wl og lang03.wl i hex. 
+
+c)
+1. Lokaliser filen "main.go" i mappen "Oppgave 3". 
+2. Skriv kommandoen "go run main.go" i kommandovinduet. Dette vil konvertere teksten til UTF-8.
+
+# Oppgave 4
+a)
+1. Lokaliser filen "unicode.go" i mappen "4a".
+2. Skriv kommandoen "go run unicode.go" i kommandovinduet. Dette vil returnere teksten på det forespurte språket. 
+
+b)
+1. 
