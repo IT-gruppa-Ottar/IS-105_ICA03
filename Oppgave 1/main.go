@@ -1,6 +1,6 @@
 package main
 
-import "./ascii/"
+import "./ascii"
 
 
 func main() {
