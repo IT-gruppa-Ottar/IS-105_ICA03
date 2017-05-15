@@ -35,6 +35,12 @@ func foo(w http.ResponseWriter, r *http.Request) {
 	w.Write([]byte("\xE2\x8F\xB0"))
 
 
+	//Type time
+	//Konvertere
+
+	//fmt.Printf("%T\n", t)
+	//fmt.Sprintf("%s", t)
+	
 }
 
 func Now() {
@@ -42,8 +48,3 @@ func Now() {
 
 	//fmt.Println(t.Format("20060102150405"))
 }
-
-
-
-
-
