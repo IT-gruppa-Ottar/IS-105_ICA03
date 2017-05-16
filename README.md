@@ -32,3 +32,4 @@ a)
 b)
 1. Lokaliser filen "server.go" i mappen "4b".
 2. Skriv kommandoen "go run server.go" i kommandovinduet. Dette vil starte serveren. Dette gjøres lokalt. for å finne netssiden, gå til "localhost:3000" i adressefeltet til en nettleser. 
+3. For å stanse prosessen, trykk "Ctrl + c" samtidig i kommandovinduet du startet prosessen fra. 
