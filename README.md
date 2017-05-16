@@ -30,4 +30,5 @@ a)
 2. Skriv kommandoen "go run unicode.go" i kommandovinduet. Dette vil returnere teksten på det forespurte språket. 
 
 b)
-1. 
+1. Lokaliser filen "server.go" i mappen "4b".
+2. Skriv kommandoen "go run server.go" i kommandovinduet. Dette vil starte serveren. Dette gjøres lokalt. for å finne netssiden, gå til "localhost:3000" i adressefeltet til en nettleser. 
