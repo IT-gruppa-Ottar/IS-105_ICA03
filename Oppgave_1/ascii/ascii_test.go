@@ -1,11 +1,11 @@
 package ascii
 
 import (
-	"testing"	
+	"testing"
 )
 
 func TestGreetingASCII(t *testing.T) {
-	tempAscii := ascii.GreetingASCII()
+	tempAscii := GreetingASCII()
 	if !(isASCII(tempAscii)){
 		t.Fail()
 	}
